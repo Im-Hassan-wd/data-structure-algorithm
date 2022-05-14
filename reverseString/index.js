@@ -11,7 +11,9 @@ function reverse(str) {
 	// const output = arr.join("");
 
 	// return output;
-	return str.split("").reverse().join('')
+	return str.split("")
+	 .reverse()
+	 .join('');
 }
 
 // _________ _______  _______ _________   _______  _______  _______  _______  _______
